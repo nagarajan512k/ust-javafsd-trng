@@ -6,7 +6,7 @@ abstract class Abstract1{
 	void display() {
 		System.out.println(age+" "+address+" "+name);
 	}
-	
+	    
 	int show() {
 		return 0;
 	}
