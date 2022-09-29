@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body{
+background-image: url("C:\Users\ustjavafsdb212\eclipse-workspace\Frontend\src\main\webapp\WEB-INF\html\UST.jpg")
+}
+.container{
+background-color:blanchedalmond;
+font-size:20px;
+width:350px;
+padding-top:10px;
+height:250px;
+margin-left:450px;
+margin-top:100px;
+border-radius:50px;
+}
+
+</style>
+<script type="text/javascript">
+function display()
+{
+	var fname=document.getElementById("fname").value;
+	var lname=document.getElementById("lname").value;
+	var city=document.getElementById("city").value;
+	
+	document.write("<center>")
+	document.write("<b>");
+	document.write("Employee Details");
+	document.write("</b>");
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	document.write(" First Name:"+fname);
+	document.write("<br>");
+	document.write("\n Last Name:"+lname);
+	document.write("<br>");
+	document.write("\n City:"+city);
+	
+	}
+</script>
+
+</head>
+<body background-image="C:\Users\ustjavafsdb212\eclipse-workspace\Frontend\src\main\webapp\WEB-INF\html\ustt.png" width="50%" height="50%">
+<div class="container">
+<center>
+<b>Employee Details</b><br><br><br>
+fname &nbsp&nbsp&nbsp<input type="text" id="fname" name="fname"><br><br>
+lname &nbsp&nbsp&nbsp<input type="text" id="lname" name="lname"><br><br>
+city &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="city" name="city"><br><br>
+<input type="button" value="submit" onclick="display()">
+</center>
+</div>
+</body>
+</html>
